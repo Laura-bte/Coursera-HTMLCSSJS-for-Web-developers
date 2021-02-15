@@ -1,3 +1,4 @@
+
 body {
 	font-family: monospace;
 }
@@ -33,25 +34,21 @@ body {
 	margin-top: 0;
 }
 
-#chicken-title {
+
+#chicken-title, #beef-title, #sushi-title {
 	font-weight: bold;
 	margin-top: 0;
 	padding: 0;
 	color: #4f74b0;
 }
 
-#chicken {
+#chicken, #beef, #sushi {
 	background-color: #edf1f7;
 	padding: 20px;
-	height: 1000px;
+	margin-bottom: 20px;
 }
 
 
-@media (max-width: 767px) {
-	#chicken {
-		margin-right: 15px;
-		margin-left: 15px;
-		margin-bottom: 15px;
-		width: 95%;
-	}
-}
+
+
+
