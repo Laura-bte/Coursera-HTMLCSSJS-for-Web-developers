@@ -1,1 +1,57 @@
-styles.css
+body {
+	font-family: monospace;
+}
+
+#header-nav {
+	background-color: #94acd1;
+	border-radius: 0;
+	border: 0;
+}
+
+#navbar-brand {
+	color: black;
+}
+
+#nav-list a {
+	text-align: center;
+	color: black;
+}
+
+#nav-list a:hover {
+	background-color: #edf1f7;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: black;
+}
+
+.navbar-default .navbar-toggle {
+	border-color: black;
+}
+
+#menu-title {
+	margin-top: 0;
+}
+
+#chicken-title {
+	font-weight: bold;
+	margin-top: 0;
+	padding: 0;
+	color: #4f74b0;
+}
+
+#chicken {
+	background-color: #edf1f7;
+	padding: 20px;
+	height: 1000px;
+}
+
+
+@media (max-width: 767px) {
+	#chicken {
+		margin-right: 15px;
+		margin-left: 15px;
+		margin-bottom: 15px;
+		width: 95%;
+	}
+}
